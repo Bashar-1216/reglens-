@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.git
+.gitignore
+*.md
+!fonts/README.md
+.env
+.venv
+venv/

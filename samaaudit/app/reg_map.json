@@ -1,0 +1,60 @@
+{
+  "RULE-001": {
+    "sama_principle_id": "PRINCIPLE-04",
+    "sama_principle_name_en": "Transparency",
+    "sama_principle_name_ar": "الشفافية",
+    "regulatory_reference_en": "Responsible Lending Guidelines — Article 12",
+    "regulatory_reference_ar": "إرشادات الإقراض المسؤول — المادة 12",
+    "audit_statement_ar": "تم تقييم نسبة الدين إلى الإيرادات وفقاً للحد الأقصى المنصوص عليه في إرشادات الإقراض المسؤول الصادرة عن البنك المركزي السعودي (المادة 12). الحد المسموح: 50%.",
+    "compliance_status_pass_ar": "ملتزم — النسبة ضمن الحد المسموح",
+    "compliance_status_fail_ar": "غير ملتزم — النسبة تتجاوز الحد المسموح"
+  },
+  "RULE-002": {
+    "sama_principle_id": "PRINCIPLE-04",
+    "sama_principle_name_en": "Transparency",
+    "sama_principle_name_ar": "الشفافية",
+    "regulatory_reference_en": "SAMA AML/CFT Guidelines — Excluded Activities List",
+    "regulatory_reference_ar": "إرشادات مكافحة غسل الأموال — قائمة الأنشطة المحظورة",
+    "audit_statement_ar": "تم فحص النشاط التجاري مقابل قائمة الأنشطة المحظورة الصادرة عن البنك المركزي السعودي. الأنشطة المحظورة تشمل: تجارة التبغ، القمار، تجارة الأسلحة، الصرافة غير المرخصة، والمضاربة العقارية.",
+    "compliance_status_pass_ar": "ملتزم — النشاط التجاري غير مدرج في قائمة المحظورات",
+    "compliance_status_fail_ar": "غير ملتزم — النشاط التجاري مدرج في قائمة الأنشطة المحظورة"
+  },
+  "RULE-003": {
+    "sama_principle_id": "PRINCIPLE-04",
+    "sama_principle_name_en": "Transparency",
+    "sama_principle_name_ar": "الشفافية",
+    "regulatory_reference_en": "SAMA SME Lending Guidelines — Section 8.3",
+    "regulatory_reference_ar": "إرشادات إقراض المنشآت الصغيرة والمتوسطة — القسم 8.3",
+    "audit_statement_ar": "تم التحقق من عمر السجل التجاري وفقاً لمتطلبات البنك المركزي السعودي. الحد الأدنى المطلوب: سنة واحدة من تاريخ التسجيل.",
+    "compliance_status_pass_ar": "ملتزم — عمر السجل التجاري يستوفي المتطلبات",
+    "compliance_status_fail_ar": "غير ملتزم — عمر السجل التجاري أقل من المتطلبات"
+  },
+  "RULE-004": {
+    "sama_principle_id": "PRINCIPLE-04",
+    "sama_principle_name_en": "Transparency",
+    "sama_principle_name_ar": "الشفافية",
+    "regulatory_reference_en": "PDPL — Article 10; SAMA Digital Lending Circular 2024",
+    "regulatory_reference_ar": "نظام حماية البيانات الشخصية — المادة 10؛ تعميم الإقراض الرقمي 2024",
+    "audit_statement_ar": "تم التحقق من هوية مالك المنشأة عبر منصة أبشر/نفاذ وفقاً لمتطلبات نظام حماية البيانات الشخصية وتعميم الإقراض الرقمي الصادر عن البنك المركزي السعودي.",
+    "compliance_status_pass_ar": "ملتزم — تم التحقق من الهوية بنجاح",
+    "compliance_status_fail_ar": "غير ملتزم — لم يتم التحقق من الهوية"
+  },
+  "RULE-005": {
+    "sama_principle_id": "PRINCIPLE-04",
+    "sama_principle_name_en": "Transparency",
+    "sama_principle_name_ar": "الشفافية",
+    "regulatory_reference_en": "SAMA Basel III Implementation — Single Obligor Limits",
+    "regulatory_reference_ar": "تطبيق بازل III — حدود المديونية الفردية",
+    "audit_statement_ar": "تم التحقق من مبلغ التمويل المطلوب مقابل الحدود القصوى المعتمدة. الحد الأقصى للتمويل: 2,000,000 ريال سعودي.",
+    "compliance_status_pass_ar": "ملتزم — المبلغ ضمن الحد المسموح",
+    "compliance_status_fail_ar": "غير ملتزم — المبلغ يتجاوز الحد المسموح"
+  },
+  "fairness_statement_ar": "تم تطبيق جميع قواعد التقييم بشكل موحد ومتسق على جميع طلبات التمويل، دون أي تمييز بناءً على الجنس أو الجنسية أو المنطقة الجغرافية أو القطاع الاقتصادي، وذلك التزاماً بمبدأ العدالة (المبدأ رقم 5) الصادر عن البنك المركزي السعودي ضمن مبادئ الذكاء الاصطناعي. يضمن النظام تطبيق المعايير ذاتها على جميع المتقدمين في نفس فئة المخاطر.",
+  "fairness_principle": {
+    "principle_id": "PRINCIPLE-05",
+    "principle_name_en": "Fairness",
+    "principle_name_ar": "العدالة",
+    "regulatory_reference_en": "SAMA AI Principles — Principle #5 (Fairness)",
+    "regulatory_reference_ar": "مبادئ الذكاء الاصطناعي — المبدأ رقم 5 (العدالة)"
+  }
+}

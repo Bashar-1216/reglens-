@@ -1,0 +1,65 @@
+{
+  "rules": [
+    {
+      "rule_id": "RULE-001",
+      "rule_name_en": "Debt-to-Revenue Ratio",
+      "rule_name_ar": "نسبة الدين إلى الإيرادات",
+      "description_en": "Total debt (existing + requested) must not exceed 50% of annual revenue",
+      "description_ar": "يجب ألا يتجاوز إجمالي الدين (الحالي + المطلوب) نسبة 50% من الإيرادات السنوية",
+      "threshold": 0.50,
+      "severity": "critical",
+      "rationale_pass_ar": "نسبة الدين إلى الإيرادات ضمن الحد المسموح (50%) وفقاً لإرشادات الإقراض المسؤول",
+      "rationale_fail_ar": "نسبة الدين إلى الإيرادات تتجاوز الحد المسموح (50%) وفقاً لإرشادات الإقراض المسؤول"
+    },
+    {
+      "rule_id": "RULE-002",
+      "rule_name_en": "Excluded Activity",
+      "rule_name_ar": "النشاط المحظور",
+      "description_en": "Business activity must not be in the SAMA excluded activities list",
+      "description_ar": "يجب ألا يكون النشاط التجاري مدرجاً في قائمة الأنشطة المحظورة",
+      "excluded_activities": ["tobacco_trading", "gambling", "weapons", "money_exchange_unlicensed", "speculative_real_estate"],
+      "severity": "critical",
+      "rationale_pass_ar": "النشاط التجاري غير مدرج في قائمة الأنشطة المحظورة من قبل البنك المركزي السعودي",
+      "rationale_fail_ar": "النشاط التجاري مدرج في قائمة الأنشطة المحظورة من قبل البنك المركزي السعودي"
+    },
+    {
+      "rule_id": "RULE-003",
+      "rule_name_en": "Business Age Requirement",
+      "rule_name_ar": "عمر السجل التجاري",
+      "description_en": "Business must have at least 1 year of commercial registration history",
+      "description_ar": "يجب أن يكون عمر السجل التجاري سنة واحدة على الأقل",
+      "min_years": 1,
+      "severity": "critical",
+      "rationale_pass_ar": "عمر السجل التجاري يستوفي الحد الأدنى المطلوب (سنة واحدة)",
+      "rationale_fail_ar": "عمر السجل التجاري أقل من الحد الأدنى المطلوب (سنة واحدة)"
+    },
+    {
+      "rule_id": "RULE-004",
+      "rule_name_en": "Identity Verification (Absher)",
+      "rule_name_ar": "التحقق من الهوية (أبشر)",
+      "description_en": "Owner identity must be verified through Absher/Nafath platform",
+      "description_ar": "يجب التحقق من هوية مالك المنشأة عبر منصة أبشر/نفاذ",
+      "severity": "critical",
+      "rationale_pass_ar": "تم التحقق من هوية مالك المنشأة بنجاح عبر منصة أبشر/نفاذ",
+      "rationale_fail_ar": "فشل التحقق من هوية مالك المنشأة عبر منصة أبشر/نفاذ"
+    },
+    {
+      "rule_id": "RULE-005",
+      "rule_name_en": "Loan Amount Limit",
+      "rule_name_ar": "حد مبلغ التمويل",
+      "description_en": "Requested loan amount must not exceed SAR 2,000,000",
+      "description_ar": "يجب ألا يتجاوز مبلغ التمويل المطلوب 2,000,000 ريال سعودي",
+      "max_amount": 2000000,
+      "severity": "high",
+      "rationale_pass_ar": "مبلغ التمويل المطلوب ضمن الحد المسموح (2,000,000 ريال)",
+      "rationale_fail_ar": "مبلغ التمويل المطلوب يتجاوز الحد الأقصى المسموح (2,000,000 ريال)"
+    }
+  ],
+  "excluded_activities": {
+    "tobacco_trading": "تجارة التبغ",
+    "gambling": "القمار والمراهنات",
+    "weapons": "تجارة الأسلحة",
+    "money_exchange_unlicensed": "صرافة غير مرخصة",
+    "speculative_real_estate": "المضاربة العقارية"
+  }
+}

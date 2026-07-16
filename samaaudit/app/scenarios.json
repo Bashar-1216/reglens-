@@ -1,0 +1,53 @@
+[
+  {
+    "id": "scenario_1",
+    "label": "✅ شركة النخبة للتجارة — موافقة",
+    "label_en": "Al-Nukhba Trading Co. — Approved",
+    "company_name": "شركة النخبة للتجارة",
+    "company_name_en": "Al-Nukhba Trading Co.",
+    "cr_number": "1010234567",
+    "business_activity": "wholesale_trading",
+    "business_activity_ar": "تجارة الجملة",
+    "business_age_years": 5,
+    "annual_revenue_sar": 3000000,
+    "existing_debt_sar": 500000,
+    "requested_loan_sar": 750000,
+    "absher_verified": true,
+    "owner_name": "أحمد بن محمد العتيبي",
+    "owner_national_id": "1087654321"
+  },
+  {
+    "id": "scenario_2",
+    "label": "❌ مؤسسة الفجر للمقاولات — رفض (دين مرتفع)",
+    "label_en": "Al-Fajr Contracting Est. — Rejected (High Debt)",
+    "company_name": "مؤسسة الفجر للمقاولات",
+    "company_name_en": "Al-Fajr Contracting Est.",
+    "cr_number": "4030567890",
+    "business_activity": "contracting",
+    "business_activity_ar": "مقاولات",
+    "business_age_years": 3,
+    "annual_revenue_sar": 1500000,
+    "existing_debt_sar": 600000,
+    "requested_loan_sar": 500000,
+    "absher_verified": true,
+    "owner_name": "فهد بن عبدالله الراشدي",
+    "owner_national_id": "1098765432"
+  },
+  {
+    "id": "scenario_3",
+    "label": "❌ شركة الدخان العربية — رفض (نشاط محظور)",
+    "label_en": "Arabian Tobacco Co. — Rejected (Excluded Activity)",
+    "company_name": "شركة الدخان العربية",
+    "company_name_en": "Arabian Tobacco Co.",
+    "cr_number": "2050345678",
+    "business_activity": "tobacco_trading",
+    "business_activity_ar": "تجارة التبغ",
+    "business_age_years": 10,
+    "annual_revenue_sar": 5000000,
+    "existing_debt_sar": 1000000,
+    "requested_loan_sar": 1500000,
+    "absher_verified": true,
+    "owner_name": "خالد بن سعود المالكي",
+    "owner_national_id": "1076543210"
+  }
+]
